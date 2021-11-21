@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.idCard {
+    width: 50vmin;
+    height: 33vmin;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 2vmin;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px 1px #000000;
+    background: rgb(100, 158, 185);
+
+}
+
+h1 {
+    height: 6vmin;
+    font-size: 3vmin;
+    text-align: center;
+    font-weight: 900;
+    line-height: 6vmin;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    font-size: 2.5vmin;
+    width: 28vmin;
+    height: 4vmin;
+    text-align: center;
+    margin: 1vmin 0 0 2vmin;
+    line-height: 4vmin;
+    border:2px solid black;
+}
+
+h3 {
+    font-size: 2vmin;
+    font-weight: bold;
+}
+
+h4 {
+    margin-right: 3vmin;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1vmin;
+}
+
+a {
+    font-size: 2vmin;
+    font-weight: bold;
+    text-align: center;
+    width: 15vmin;
+}
+
+.pictureAndDelete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vmin 0 0 2vmin;
+}
+
+.picture {
+    width: 15vmin;
+    height: 21vmin;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 2px inset, rgba(0, 0, 0, 0.432) 0px 0px 0px 2px;    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.uploadedImg {
+    max-height: 21vmin;
+}
+
+.content {
+    display: flex;
+}
+
+.bg {
+    position: absolute;
+    width: 30vmin;
+    height: auto;
+    margin: 12vmin 0 0 19vmin;
+    opacity: 0.3;
+}
+
+.moreinfo {
+    display: flex;
+    font-size: 1.5vmin;
+    margin-top: 1vmin;
+}
+
+.details {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2vmin 0 0 2vmin;
+}
+
+.signature {
+    font-family: sans-serif;
+    width: 15vmin;
+    margin: 5vmin 0 0 8vmin;
+}
+
+.signatureImg {
+    width: 12vmin;
+    height: 6vmin;
+    position: absolute;
+    margin: 0 0 0 13vmin;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50vmin;
+    margin: 10px;
+    height: 13vmin;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button {
+    background: rgb(111, 184, 202);
+}
